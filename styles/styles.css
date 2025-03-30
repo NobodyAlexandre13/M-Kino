@@ -13,6 +13,15 @@
 html{
     scroll-behavior: smooth;
 }
+/*Animação*/
+@keyframes fadeIn {
+    0%{
+      transform: translateY(100%);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
  
 *{
     margin: 0;
@@ -63,9 +72,18 @@ header{
     color: #5f60b3;
     transition: all .5s;
 }
+.openMenu{
+    display: none;
+    font-size: 20px;
+    color: #5f60b3;
+}
+.menu.abrirH{
+    animation: fadeIn 1s ease-in-out alternate;
+    display: block;
+}
 .home{
     background-color: #dceef8;
-    padding-top: 6%;
+    padding-top: 8%;
 }
 .flex-home{
     display: flex;
