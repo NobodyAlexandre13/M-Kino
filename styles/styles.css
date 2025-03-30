@@ -1,0 +1,274 @@
+ /*
+    Cores
+        home: #dceef8
+        background: #ffffff
+        btn-destak: #a32529
+        menu-eat: #5f60b3
+
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+html{
+    scroll-behavior: smooth;
+}
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;  
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #dceef8;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logo i{
+    font-size: 40px;
+    color: #5f60b3;
+}
+.logo h1{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Chela One", system-ui;
+    color: #5f60b3;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    color: #1d1d1d;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: #5f60b3;
+    transition: all .5s;
+}
+.home{
+    background-color: #dceef8;
+    padding-top: 6%;
+}
+.flex-home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    background-color: #dceef8;
+    margin-bottom: 20px;
+}
+.text .titulo{
+    font-size: 150px;
+    font-family: "Chela One", system-ui;
+    color: #5f60b3;
+}
+.descricao{ 
+    width: 350px;
+    color: #353535;
+    margin-top: -20px;
+    text-align: justify;
+}
+.ecomendar{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #a32529;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.imagem-home{
+    width: 350px;
+}
+.imagem-home img{
+    width: 100%;
+}
+.text-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.text-bottom h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.text-bottom a{
+    background-color: #5f60b3;
+    color: #fff;
+    padding: 6px 30px;
+    border-radius: 20px;
+    margin-bottom: -20px;
+    text-decoration: none;
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 8%;
+    gap: 8%;
+}
+.img-sobre{
+    width: 450px;
+}
+.img-sobre img{
+    width: 100%;
+    border-radius: 10px;
+}
+.text-sobre{
+    width: 450px;
+}
+.titilo-sobre{
+    color: #5f60b3;
+    font-size: 48px;
+    font-family: "Chela One", system-ui;
+    margin-bottom: 20px;
+}
+.descricao-sobre{
+    width: 450px;
+    color: #353535;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.menu-kino{
+    margin-top: 8%;
+    width: 100%;
+    background-color: #5f60b3;
+    padding: 30px 0;
+}
+
+.text-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo-menu{
+    font-size: 48px;
+    font-family: "Chela One", system-ui;
+    color: #fff;
+}
+.descricao-menu{
+    width: 350px;
+    color: #fff;
+    text-align: center;
+}
+.pratos{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8%;
+}
+.prato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-prato{
+    margin-top: 20px;
+    color: #dceef8;
+    text-align: center;
+}
+.nome{
+    font-weight: 600;
+    font-size: 18px;
+}
+.price{
+    font-size: 18px;
+}
+.price span{
+    font-family: "Chela One", system-ui;
+    font-size: 14px;
+}
+.prato a{
+    color: #dceef8;
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8%;
+}
+.titulo-contacto{
+    font-size: 48px;
+    font-family: "Chela One", system-ui;
+    color: #5f60b3;
+    margin-bottom: 10px;
+}
+.contactos-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+.contactos-area p{
+    width: 300px;
+    background-color: #dceef8;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #5f60b3;
+}
+.maps{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maps iframe{
+    width: 68%;
+    height: 400px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+.redes a{
+    width: 300px;
+    background-color: #dceef8;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #5f60b3;
+}
+footer{
+    margin-top: 8%;
+    background-color: #353535;
+    color: #dceef8;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
